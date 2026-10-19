@@ -1,14 +1,14 @@
 # Complete Student Management System (SMS)
 ### Intelligent NoSQL Databases (Course Code: CSE494)
 
-**Candidate Name**: RAM KUMAR  
-**Registration Number**: 12306472  
-**Roll Number**: 26  
-**Section**: KO020  
+**Candidate Name**: AVNEET KUMAR  
+**Registration Number**: 12308903  
+**Roll Number**: 33  
+**Section**: K3P23RE  
 **Department**: Computer Science & Engineering  
 **Institution**: Lovely Professional University  
 **Evaluation**: 30 Marks Total (Implementation: 15 Marks, Report: 5 Marks, Viva: 10 Marks)  
-**Repository**: [https://github.com/ramkumar-lpu/Student-Management-System_NOSQL](https://github.com/ramkumar-lpu/Student-Management-System_NOSQL)  
+**Repository**: [https://github.com/avneetkumar80/Student-Management-System-No-Sql)  
 
 A full-stack, production-grade, and beginner-friendly Student Management System built using **MongoDB**, **PyMongo**, **Python (Flask)**, and **React (Vite + Tailwind CSS + Recharts)**.
 
