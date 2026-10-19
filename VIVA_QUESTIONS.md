@@ -2,14 +2,14 @@
 ## Course: Intelligent NoSQL Databases (CSE494)
 ## Project Title: Complete Student Management System Using MongoDB & PyMongo
 
-**Candidate Name**: RAM KUMAR  
-**Registration Number**: 12306472  
-**Roll Number**: 26  
-**Section**: KO020  
+**Candidate Name**: AVNEET KUMAR 
+**Registration Number**: 12308903  
+**Roll Number**: 33  
+**Section**: K23RE  
 **Department**: Computer Science & Engineering  
 **Institution**: Lovely Professional University  
-**GitHub Repository**: [https://github.com/ramkumar-lpu/Student-Management-System_NOSQL](https://github.com/ramkumar-lpu/Student-Management-System_NOSQL)  
-
+**GitHub Repository**: [https://github.com/avneetkumar80/Student-Management-System-No-Sql]  
+**Academic Session**: 2026-2027 
 ---
 
 This document provides **30 in-depth viva questions and detailed, technically rigorous answers** designed to help you confidently defend every aspect of this Student Management System during your viva examination.

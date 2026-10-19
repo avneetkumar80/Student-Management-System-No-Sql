@@ -1,8 +1,8 @@
 # Comprehensive System Architecture & Technical Reference
 ## Project: Student Management System (SMS)
 ### Course: Intelligent NoSQL Databases (CSE494)
-**Author**: RAM KUMAR (Reg No: 12306472, Roll No: 26, Section: KO020)  
-**Repository**: [https://github.com/ramkumar-lpu/Student-Management-System_NOSQL](https://github.com/ramkumar-lpu/Student-Management-System_NOSQL)
+**Author**: AVNEET KUMAR (Reg No: 12308903, Roll No: 33, Section: K23RE)  
+**Repository**: [https://github.com/avneetkumar80/Student-Management-System-No-Sql]
 
 ---
 

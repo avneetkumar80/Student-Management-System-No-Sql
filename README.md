@@ -8,7 +8,8 @@
 **Department**: Computer Science & Engineering  
 **Institution**: Lovely Professional University  
 **Evaluation**: 30 Marks Total (Implementation: 15 Marks, Report: 5 Marks, Viva: 10 Marks)  
-**Repository**: [https://github.com/avneetkumar80/Student-Management-System-No-Sql)  
+**Repository**: [https://github.com/avneetkumar80/Student-Management-System-No-Sql](https://github.com/avneetkumar80/Student-Management-System-No-Sql)  
+**Academic Session**: 2026-2027  
 
 A full-stack, production-grade, and beginner-friendly Student Management System built using **MongoDB**, **PyMongo**, **Python (Flask)**, and **React (Vite + Tailwind CSS + Recharts)**.
 
