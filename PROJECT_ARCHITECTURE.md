@@ -169,7 +169,7 @@ NOSQL_SMS/
 │   ├── validators.py               # Server-side validation functions (email regex, range limits)
 │   ├── aggregations.py             # 5 Mandatory MongoDB Aggregation Pipelines + Dashboard summary executor
 │   ├── routes.py                   # REST API routes (Health, CRUD, Analytics, and Dashboard)
-│   ├── seed.py                     # Idempotent data seeder (16 realistic students across all grade tiers)
+│   ├── seed.py                     # Idempotent data seeder (36 realistic students across all grade tiers)
 │   └── tests/                      # Automated test suite
 │       └── test_api.py             # 14 unit & integration tests running on isolated test database
 │
@@ -689,7 +689,7 @@ OK
    `app.config['DB_NAME'] = 'student_management_test'`
 2. All database mutations (create, update, delete) occur exclusively within `student_management_test`.
 3. `tearDownClass` issues `client.drop_database('student_management_test')`.
-4. **Result**: The user's primary academic database (`student_management`) containing the 16 seeded records is never cleared or corrupted during test execution.
+4. **Result**: The user's primary academic database (`student_management`) containing the 36 seeded records is never cleared or corrupted during test execution.
 
 #### Automated Test Matrix:
 
@@ -725,7 +725,7 @@ This matrix maps every evaluation criteria from the **CSE494 Intelligent NoSQL D
 | **CRUD Operations (15 Marks)** | Complete Create, Read, Update, Delete APIs | Full REST API endpoints with pagination, search regex, filter, and error status codes | [`backend/routes.py:L88-370`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/routes.py#L88-L370) | Screenshots 02, 04, 07, 08, 09: CRUD in React UI |
 | **Aggregation Pipelines (15 Marks)**| Multi-stage data processing pipelines | 5 dedicated aggregation pipelines utilizing `$group`, `$project`, `$sort`, `$limit`, `$switch` | [`backend/aggregations.py`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/aggregations.py) | Screenshots 10 & 11: Real-time charts on Analytics page |
 | **PyMongo Integration (15 Marks)**| Low-level Python driver implementation | Direct PyMongo queries, connection pooling, and BSON serialization | [`backend/database.py`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/database.py) & [`routes.py`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/routes.py) | Live code demonstration showing PyMongo syntax |
-| **Sample Seeding (15 Marks)**| Realistic seed data covering all scenarios | Idempotent `seed.py` inserting 16 students across 6 departments and all grade tiers (A-F) | [`backend/seed.py`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/seed.py) | Execute `docker compose exec backend python seed.py` |
+| **Sample Seeding (15 Marks)**| Realistic seed data covering all scenarios | Idempotent `seed.py` inserting 36 students across 6 departments and all grade tiers (A-F) | [`backend/seed.py`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/backend/seed.py) | Execute `docker compose exec backend python seed.py` |
 | **Report (5 Marks)** | Formal academic project documentation | Detailed academic project report explaining design, schema, and queries | [`PROJECT_REPORT.md`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/PROJECT_REPORT.md) | Submit PDF/Markdown report with diagrams |
 | **Presentation & Viva (10 Marks)**| Viva defense readiness | 20+ comprehensive viva questions and technical answers covering NoSQL & architecture | [`VIVA_QUESTIONS.md`](file:///c:/Users/ramku/Downloads/NOSQL_SMS/VIVA_QUESTIONS.md) | Oral defense of BSON, schema design, and aggregation stages |
 

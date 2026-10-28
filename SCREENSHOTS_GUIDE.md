@@ -39,7 +39,7 @@ docker compose up -d
 
 | # | Screenshot Filename | Source / Tool | View to Capture & What to Highlight |
 | :-: | :--- | :--- | :--- |
-| **01** | `01_dashboard_overview.png` | Browser (`http://localhost:8082`) | **Executive Academic Dashboard**: Capture the 4 KPI cards (Total Students: 16, Active Departments: 6, Institutional Average: ~67%, Top Performer), Department distribution bar chart, and Grade distribution chart. |
+| **01** | `01_dashboard_overview.png` | Browser (`http://localhost:8082`) | **Executive Academic Dashboard**: Capture the 4 KPI cards (Total Students: 36 seeded records, Active Departments: 6, Institutional Average, Top Performer), Department distribution bar chart, and Grade distribution chart. |
 | **02** | `02_students_directory.png` | Browser (`/students`) | **Student Directory View**: Display the responsive table showing Roll Numbers, Names, Emails, Departments, Semesters, Marks breakdown, Average Scores, Letter Grade pills, and pagination. |
 | **03** | `03_search_and_filter.png` | Browser (`/students`) | **Live Filter & Sorting**: Type a search query (e.g., `"Aarav"` or `"CSE"`), select a department filter (`CSE`), and sort by `Average Marks` descending. |
 | **04** | `04_enroll_student_modal.png` | Browser Modal | **Enroll Student Modal Form**: Open the modal. Show clean fields for Roll Number, Name, Email, Department dropdown, Semester selector, and marks for DBMS, DSA, and Python. |

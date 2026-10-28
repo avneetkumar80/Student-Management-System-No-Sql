@@ -366,7 +366,7 @@ You should see all three containers `Up` and `(healthy)`:
 - `sms_frontend` (`nosql_sms-frontend`)
 
 #### 3. Seed Sample Data (Inside Container)
-Populate the 16 realistic students across all grade tiers:
+Populate 36 realistic students across all grade tiers:
 ```powershell
 docker compose exec backend python seed.py
 ```
@@ -458,7 +458,7 @@ python -m venv venv
 # Install requirements
 pip install -r requirements.txt
 
-# Seed sample data (16 students across all departments and grades)
+# Seed sample data (36 students across all departments and grades)
 python seed.py
 
 # Run Flask backend server
@@ -483,7 +483,7 @@ npm run dev
 
 ## 11. Sample Data Seeding
 
-Run the seed script at any time to populate 16 realistic students across 6 departments:
+Run the seed script at any time to populate 36 realistic students across 6 departments:
 ```powershell
 # In Docker environment:
 docker compose exec backend python seed.py
